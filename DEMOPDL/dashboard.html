@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/flatly/bootstrap.min.css"
+    />
+    <title>Dashboard :: DEMO PDL API</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">#Dashboard :: DEMO PDL API</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto my-auto">
+          <div class="card card-body">
+            <form id="cari-nopd">
+              <div class="row form-group">
+                <div class="col-md-8">
+                  <input
+                    type="hidden"
+                    name="token"
+                    id="token"
+                    class="form-control"
+                  />
+                  <input
+                    type="text"
+                    name="npwpd"
+                    id="npwpd"
+                    class="form-control"
+                    readonly
+                  />
+                </div>
+
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    name="tahun"
+                    id="tahun"
+                    class="form-control"
+                    placeholder="Tahun"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class="form-group text-right">
+              <button class="btn-control btn btn-secondary" id="btn-nopd">
+                Lihat NOPD
+              </button>
+            </div>
+          </div>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-5 p-3 text-center text-muted">
+      Demo PDL API #iogias &copy; 2020
+    </footer>
+    <script src="easyHttp.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

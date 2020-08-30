@@ -1,0 +1,34 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "doe@gmail.com",
+      "age": 35
+    },
+    {
+      "id": "2",
+      "name": "Robbie Die",
+      "email": "rob@gmail.com",
+      "age": 40
+    },
+    {
+      "id": "3",
+      "name": "Marry Jane",
+      "email": "mjane@gmail.com",
+      "age": 25
+    },
+    {
+      "id": "4",
+      "name": "Veron Ice",
+      "email": "ice@gmail.com",
+      "age": 27
+    },
+    {
+      "id": "5",
+      "name": "Gogo",
+      "email": "ggg@gmail.com",
+      "age": 60
+    }
+  ]
+}

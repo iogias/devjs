@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/flatly/bootstrap.min.css"
+    />
+    <title>DEMO PDL API</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">#DEMO PDL API</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto my-auto">
+          <div class="loginContainer card card-body">
+            <h3 class="loginCard">Login</h3>
+            <form id="login-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="userid"
+                  id="userid"
+                  class="form-control"
+                  placeholder="Userid"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="form-group text-right">
+                <button class="btn-control btn btn-secondary" id="btn-login">
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-5 p-3 text-center text-muted">
+      Demo PDL API #iogias &copy; 2020
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"
+    ></script>
+    <script src="easyHttp.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

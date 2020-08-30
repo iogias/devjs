@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/flatly/bootstrap.min.css"
+    />
+    <title>FindMeDude :: GitHub Finder</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">#FindMeDude</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h2>Search GitHub Users</h2>
+        <p class="lead">Enter GitHub username</p>
+        <input
+          type="text"
+          name="search-user"
+          id="search-user"
+          class="form-control"
+          placeholder="GitHub Username"
+        />
+        <br />
+        <div id="profile"></div>
+      </div>
+    </div>
+    <footer class="mt-5 p-3 text-center text-muted bg-light">
+      FindMeDude &copy; 2020
+    </footer>
+    <script src="findme.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
